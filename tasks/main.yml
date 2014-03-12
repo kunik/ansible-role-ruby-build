@@ -1,3 +1,4 @@
+---
 - name: install packages
   sudo: true
   apt: pkg={{ item }}
