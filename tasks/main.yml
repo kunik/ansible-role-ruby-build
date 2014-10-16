@@ -22,4 +22,3 @@
   sudo: true
   command: >
     /tmp/ruby-build/install.sh
-    creates=/usr/local/bin/ruby-build
