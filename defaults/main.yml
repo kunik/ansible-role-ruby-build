@@ -1,3 +1,4 @@
 ---
 ruby_build:
   repo: git@github.com:sstephenson/ruby-build.git
+  accept_repo_hostkey: no

@@ -17,6 +17,7 @@
   git: >
     repo={{ ruby_build.repo }}
     dest=/tmp/ruby-build
+    accept_hostkey={{ ruby_build.accept_repo_hostkey }}
 
 - name: install
   sudo: true
