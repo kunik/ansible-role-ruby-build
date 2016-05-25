@@ -1,6 +1,6 @@
 ---
 - name: install packages
-  sudo: true
+  become: yes
   apt: pkg={{ item }}
   with_items:
     - make
@@ -19,6 +19,6 @@
     dest=/tmp/ruby-build
 
 - name: install
-  sudo: true
+  become: yes
   command: >
     /tmp/ruby-build/install.sh
